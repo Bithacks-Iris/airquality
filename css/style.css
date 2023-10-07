@@ -282,12 +282,13 @@ body {
 	letter-spacing: 1px;
 	font-weight: 600;
 	color: #fff;
-	border-bottom: 8px solid #42a5f6;
+	/*border-bottom: 8px solid #42a5f6;*/
     display: inline-block;
     margin-bottom: 30px;
     padding-bottom: 15px;
     padding-right: 75px;
     line-height: 40px;
+	margin-left: 490px;
 }
 
 #portfolio p {
@@ -333,6 +334,11 @@ body {
 #portfolio .portfolioContainer{
 	margin:0 auto;
 	padding-left:15px;
+	
+}
+
+.portfolioFilter {
+	margin-left: 150px;
 }
 
 #portfolio .portfolioContainer{
