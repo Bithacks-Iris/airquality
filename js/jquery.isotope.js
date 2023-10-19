@@ -1396,3 +1396,9 @@
   };
 
 })( window, jQuery );
+
+$(document).ready(function(){
+setInterval(function(){
+      $(".refreshme").load(window.location.href + " .refreshme" );
+}, 3000);
+});
