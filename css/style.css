@@ -601,4 +601,12 @@ input.btn.btn-lg:focus {
 	margin: 0px;
 	color: #fff;
 }
+.grid-container {
+	display: grid;
+	grid-template-columns: 400px 400px 400px 400px;
+	padding: 10px;
+  }
+  .grid-item {
+	text-align: center;
+  }
 
