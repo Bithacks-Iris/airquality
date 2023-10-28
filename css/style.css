@@ -603,7 +603,7 @@ input.btn.btn-lg:focus {
 }
 .grid-container {
 	display: grid;
-	grid-template-columns: 400px 400px 400px 400px;
+	grid-template-columns: auto auto auto auto;
 	padding: 10px;
   }
   .grid-item {
