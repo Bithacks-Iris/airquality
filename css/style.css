@@ -207,6 +207,7 @@ body {
 	font-size: 16px;
 }
 
+
 #about .panel-group {
 	margin-top: 30px;
 }
@@ -602,13 +603,9 @@ input.btn.btn-lg:focus {
 	color: #fff;
 }
 .grid-container {
-	display: grid;
-	grid-template-columns: auto auto auto auto;
-	padding: 10px;
-	margin-left: 0px;
-	margin-right: 0px;
-  }
-  .grid-item {
 	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	
   }
-
+ 
